@@ -1,0 +1,198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1D16FE516A5E19E00D2DD6B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1D16FE416A5E19E00D2DD6B /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1D16FDE16A5E19E00D2DD6B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1D16FE016A5E19E00D2DD6B /* VP detection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "VP detection"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D16FE416A5E19E00D2DD6B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C1D16FE616A5E19E00D2DD6B /* VP_detection.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = VP_detection.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1D16FDD16A5E19E00D2DD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1D16FD516A5E19E00D2DD6B = {
+			isa = PBXGroup;
+			children = (
+				C1D16FE316A5E19E00D2DD6B /* VP detection */,
+				C1D16FE116A5E19E00D2DD6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1D16FE116A5E19E00D2DD6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1D16FE016A5E19E00D2DD6B /* VP detection */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1D16FE316A5E19E00D2DD6B /* VP detection */ = {
+			isa = PBXGroup;
+			children = (
+				C1D16FE416A5E19E00D2DD6B /* main.cpp */,
+				C1D16FE616A5E19E00D2DD6B /* VP_detection.1 */,
+			);
+			path = "VP detection";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1D16FDF16A5E19E00D2DD6B /* VP detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D16FE916A5E19E00D2DD6B /* Build configuration list for PBXNativeTarget "VP detection" */;
+			buildPhases = (
+				C1D16FDC16A5E19E00D2DD6B /* Sources */,
+				C1D16FDD16A5E19E00D2DD6B /* Frameworks */,
+				C1D16FDE16A5E19E00D2DD6B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VP detection";
+			productName = "VP detection";
+			productReference = C1D16FE016A5E19E00D2DD6B /* VP detection */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1D16FD716A5E19E00D2DD6B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C1D16FDA16A5E19E00D2DD6B /* Build configuration list for PBXProject "VP detection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1D16FD516A5E19E00D2DD6B;
+			productRefGroup = C1D16FE116A5E19E00D2DD6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1D16FDF16A5E19E00D2DD6B /* VP detection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1D16FDC16A5E19E00D2DD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D16FE516A5E19E00D2DD6B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C1D16FE716A5E19E00D2DD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C1D16FE816A5E19E00D2DD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C1D16FEA16A5E19E00D2DD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1D16FEB16A5E19E00D2DD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1D16FDA16A5E19E00D2DD6B /* Build configuration list for PBXProject "VP detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D16FE716A5E19E00D2DD6B /* Debug */,
+				C1D16FE816A5E19E00D2DD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D16FE916A5E19E00D2DD6B /* Build configuration list for PBXNativeTarget "VP detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D16FEA16A5E19E00D2DD6B /* Debug */,
+				C1D16FEB16A5E19E00D2DD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1D16FD716A5E19E00D2DD6B /* Project object */;
+}
