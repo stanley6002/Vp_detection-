@@ -1,0 +1,166 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	VP detection/DType .h	/^# define BLACK /;"	d
+C1Lpt	VP detection/DType .h	/^ typedef struct  C1Lpt$/;"	s
+C1Lpt	VP detection/fit.h	/^ pt3 C1Lpt;   $/;"	m	class:Edge1
+CB	VP detection/matrix_OP.h	/^#define CB(/;"	d
+CalculateClusterJaccardDist	VP detection/Jlinkage.cpp	/^static double CalculateClusterJaccardDist(int in1 , int in2)$/;"	f	file:
+CandidacySelection	VP detection/fit.cpp	/^void CandidacySelection( vector<vector<CvPoint> >&edgelist, int NumofCandidacy, int*CandidacyList ) $/;"	f
+Canny_mask	VP detection/DType .h	/^# define Canny_mask /;"	d
+Canny_thd	VP detection/DType .h	/^# define Canny_thd /;"	d
+Cluster	VP detection/Jlinkage.h	/^}  Cluster;$/;"	t	typeref:struct:__anon1
+ClusterInitialization_Ex	VP detection/Jlinkage.cpp	/^static void ClusterInitialization_Ex(int*list, int NumofInitialCluster)$/;"	f	file:
+Cluster_Initilization	VP detection/Jlinkage.cpp	/^void Cluster_Initilization()$/;"	f
+Compute_Initial_Distance	VP detection/Jlinkage.cpp	/^static void Compute_Initial_Distance()$/;"	f	file:
+Cpoint	VP detection/DType .h	/^ typedef struct  Cpoint$/;"	s
+Cpoint	VP detection/fit.h	/^ point_D Cpoint;$/;"	m	class:Edge1
+DEG2RAD	VP detection/matrix_OP.h	/^#define DEG2RAD(/;"	d
+Distance_Initilization	VP detection/Jlinkage.cpp	/^void Distance_Initilization(int & row_)$/;"	f
+Edge1	VP detection/fit.h	/^class Edge1$/;"	c
+Edge2	VP detection/fit.h	/^class Edge2$/;"	c
+Edge_lst	VP detection/fit.h	/^    Edge1* Edge_lst;$/;"	m	class:Edge2
+Gen_C1Lpoint_Distance	VP detection/fit.h	/^inline void  Edge2::Gen_C1Lpoint_Distance(int location)$/;"	f	class:Edge2
+Gen_Hyp	VP detection/fit.cpp	/^bool Gen_Hyp(int &i, int &j, double *VP)$/;"	f
+Gen_skm	VP detection/fit.h	/^inline void  Edge2::Gen_skm(double &x, double &y , double* skemat)$/;"	f	class:Edge2
+GetC1Lpt	VP detection/fit.h	/^inline pt3 Edge2::GetC1Lpt(int location)$/;"	f	class:Edge2
+GetCpoint	VP detection/fit.h	/^inline point_D Edge2::GetCpoint(int location)$/;"	f	class:Edge2
+GetPoint	VP detection/fit.h	/^inline void Edge2::GetPoint(int location, double *point)$/;"	f	class:Edge2
+GetskMat	VP detection/fit.h	/^inline void Edge2::GetskMat(int location, double *skmat)$/;"	f	class:Edge2
+Global_Centerpt	VP detection/VP_nonlinear.c	/^static point_D* Global_Centerpt;$/;"	v	file:
+Global_Cline	VP detection/VP_nonlinear.c	/^static pt3 *Global_Cline;$/;"	v	file:
+Global_NumEdge	VP detection/VP_nonlinear.c	/^static int Global_NumEdge=0;$/;"	v	file:
+Hypothesis_Generation	VP detection/fit.cpp	/^vector<vector <bool> >Hypothesis_Generation(vector<vector<CvPoint> >&edgelist,int NumEdges \/*numEdges*\/ , int NumTriasl \/* trials*\/, bool Uniform,int *CandidacyList )$/;"	f
+Image	VP detection/edge_detection .h	/^    Image(IplImage* img=0) $/;"	f	class:Image
+Image	VP detection/edge_detection .h	/^template<class T> class Image $/;"	c
+ImgHeight	VP detection/main.cpp	/^ int ImgHeight;$/;"	v
+ImgWidth	VP detection/main.cpp	/^ int ImgWidth;$/;"	v
+Initialize	VP detection/fit.h	/^inline void Edge2::Initialize(int num)$/;"	f	class:Edge2
+Jlinkage	VP detection/Jlinkage.cpp	/^void Jlinkage()$/;"	f
+LDA	VP detection/matrix_OP.c	/^#define LDA /;"	d	file:
+LWA	VP detection/VP_nonlinear.c	/^    #define LWA /;"	d	file:
+MAX	VP detection/matrix_OP.h	/^#define MAX(/;"	d
+MAX4	VP detection/matrix_OP.h	/^#define MAX4(/;"	d
+MIN	VP detection/matrix_OP.h	/^#define MIN(/;"	d
+MIN4	VP detection/matrix_OP.h	/^#define MIN4(/;"	d
+N	VP detection/matrix_OP.c	/^#define N /;"	d	file:
+NLVPoptimization	VP detection/VP_nonlinear.c	/^void NLVPoptimization(int NumEdg,double *Vangle, point_D* Centerpt,pt3  *Cline, pt3 *VP_result)$/;"	f
+NL_estimation_driver	VP detection/VP_linear.cpp	/^void NL_estimation_driver(double*vVp,int cluster_k,pt3 *VP_result)$/;"	f
+New_version_Test	VP detection/fit.cpp	/^# define New_version_Test$/;"	d	file:
+NonUniform	VP detection/fit.cpp	/^int *NonUniform(std::vector<std::vector<CvPoint> >&edgelist,int &size_random)$/;"	f
+Non_unoform	VP detection/fit.cpp	/^# define Non_unoform$/;"	d	file:
+Norm_	VP detection/fit.h	/^inline Edge2& Edge2::Norm_(int location, double*point)$/;"	f	class:Edge2
+Print_VL	VP detection/fit.h	/^inline void Edge2::Print_VL(int location)$/;"	f	class:Edge2
+Print_VLt	VP detection/fit.h	/^inline void  Edge2::Print_VLt(int location)$/;"	f	class:Edge2
+QSORT_ASCENDING	VP detection/qsort.c	/^    QSORT_ASCENDING,$/;"	e	enum:__anon2	file:
+QSORT_DESCENDING	VP detection/qsort.c	/^    QSORT_DESCENDING$/;"	e	enum:__anon2	file:
+RAD2DEG	VP detection/matrix_OP.h	/^#define RAD2DEG(/;"	d
+Random_selection	VP detection/fit.cpp	/^void Random_selection(int &Indx1, int &Indx2, int size)$/;"	f
+Random_selection_Non	VP detection/fit.cpp	/^void Random_selection_Non(int &Indx1, int &Indx2, int &size_)$/;"	f
+SORT_ASCENDING	VP detection/qsort.c	/^#define SORT_ASCENDING$/;"	d	file:
+SQ	VP detection/matrix_OP.h	/^#define SQ(/;"	d
+VLt	VP detection/fit.h	/^ double VLt[9];$/;"	m	class:Edge1
+VLt_	VP detection/fit.h	/^inline Edge2& Edge2::VLt_(int location)$/;"	f	class:Edge2
+VLt_read	VP detection/fit.h	/^inline double  Edge2::VLt_read(int location,int Num)$/;"	f	class:Edge2
+VP_pairs	VP detection/fit.cpp	/^void  VP_pairs(int &Indx1, int &Indx2, double *VP)$/;"	f
+V_hyperror	VP detection/fit.cpp	/^void  V_hyperror(int &location, double *VP, double *error)$/;"	f
+WHITE	VP detection/DType .h	/^# define WHITE /;"	d
+__DType_h__	VP detection/DType .h	/^#define __DType_h__$/;"	d
+__VP_nonlinear_h__	VP detection/VP_nonlinear.h	/^#define __VP_nonlinear_h__$/;"	d
+__edge_detection_h__	VP detection/edge_detection .h	/^#define __edge_detection_h__$/;"	d
+__fit_h__	VP detection/fit.h	/^#define __fit_h__$/;"	d
+__matrix_OP_h__	VP detection/matrix_OP.h	/^#define __matrix_OP_h__$/;"	d
+__qsort_h__	VP detection/qsort.h	/^#define __qsort_h__$/;"	d
+cluster_result	VP detection/Jlinkage.cpp	/^vector<vector<int> > cluster_result; $/;"	v
+convertInt	VP detection/main.cpp	/^string convertInt(int number)$/;"	f
+demo	VP detection/main.cpp	/^# define demo$/;"	d	file:
+deviation	VP detection/DType .h	/^# define deviation /;"	d
+dgesvd_driver	VP detection/matrix_OP.c	/^int dgesvd_driver(int m, int n, double *A, double *U, double *S, double *VT) {$/;"	f
+disable	VP detection/Jlinkage.h	/^    bool disable;$/;"	m	struct:__anon1
+dsyev_driver	VP detection/matrix_OP.c	/^void dsyev_driver(int n1, double*mat, int lda1, double *w1)$/;"	f
+edge_detection	VP detection/edge_detection .cpp	/^vector<vector<CvPoint> > edge_detection(IplImage* Iplimage)$/;"	f
+eliminateJunction	VP detection/edge_detection .cpp	/^void eliminateJunction(IplImage* iplEdge, uint8 edgC, uint8 backC)$/;"	f
+eraseBorder	VP detection/edge_detection .cpp	/^void  eraseBorder(IplImage* iplEdge)$/;"	f
+error_deviation	VP detection/fit.cpp	/^double  error_deviation=0.005;    $/;"	v
+errorlst	VP detection/fit.cpp	/^vector<vector<bool> > errorlst; $/;"	v
+fcn_noW	VP detection/VP_nonlinear.c	/^void fcn_noW(const int *m, const int *n, const double *x, double *fvec, int *iflag)$/;"	f
+fit	VP detection/fit.cpp	/^void fit(std::vector<std::vector<CvPoint> >&edgelist)$/;"	f
+floodfill	VP detection/edge_detection .cpp	/^std::vector< CvPoint> floodfill(CvPoint seed, uint8 edgC, uint8 bckV, IplImage* img, int line_th)$/;"	f
+getClosestClusters	VP detection/Jlinkage.cpp	/^static double getClosestClusters(std::vector<Cluster> &vCluster, int &c1, int &c2)$/;"	f	file:
+getClusterJaccardDist	VP detection/Jlinkage.cpp	/^static double getClusterJaccardDist(Cluster c1, Cluster c2)$/;"	f	file:
+height	VP detection/edge_detection .h	/^    inline int height()$/;"	f	class:Image
+homogeneous_coor	VP detection/linefitting.cpp	/^void homogeneous_coor(vector<vector<CvPoint> >*edgelist)$/;"	f
+imgp	VP detection/edge_detection .h	/^    IplImage* imgp;$/;"	m	class:Image
+intersectiontwoCluster	VP detection/Jlinkage.cpp	/^void intersectiontwoCluster (Cluster &c1, Cluster &c2)$/;"	f
+is_sorted	VP detection/qsort.c	/^int is_sorted(int n, double *arr) {$/;"	f
+kth_element	VP detection/qsort.c	/^double kth_element(int n, int k, double *arr) {$/;"	f
+kth_element_copy	VP detection/qsort.c	/^double kth_element_copy(int n, int k, double *arr) {$/;"	f
+line_segmentation	VP detection/edge_detection .cpp	/^vector<vector<CvPoint> > line_segmentation(vector<vector <CvPoint> > vComp , int &tol)$/;"	f
+line_threshold	VP detection/DType .h	/^# define line_threshold /;"	d
+linear_estimation	VP detection/VP_linear.cpp	/^void linear_estimation()$/;"	f
+linefitting	VP detection/line.cpp	/^void linefitting()$/;"	f
+linemaxdev	VP detection/edge_detection .cpp	/^void linemaxdev(vector<CvPoint>line, float& max, int  &index)$/;"	f
+main	VP detection/main.cpp	/^int main (int argc, const char * argv[])$/;"	f
+matrix_print	VP detection/matrix_OP.c	/^void matrix_print(int m, int n, double *A) {$/;"	f
+matrix_product	VP detection/matrix_OP.c	/^void matrix_product(int Am, int An, int Bm, int Bn, $/;"	f
+matrix_transpose	VP detection/matrix_OP.c	/^void matrix_transpose(int m, int n, double *A, double *AT) {$/;"	f
+matrix_transpose_product	VP detection/matrix_OP.c	/^void matrix_transpose_product(int Am, int An, int Bm, int Bn, double *A, double *B, double *R) {$/;"	f
+matrix_transpose_product2_old	VP detection/matrix_OP.c	/^void matrix_transpose_product2_old(int Am, int An, int Bm, int Bn, $/;"	f
+maxima_trial	VP detection/DType .h	/^# define maxima_trial /;"	d
+median	VP detection/qsort.c	/^double median(int n, double *arr) {$/;"	f
+median_copy	VP detection/qsort.c	/^double median_copy(int n, double *arr) {$/;"	f
+mergeClusters	VP detection/Jlinkage.cpp	/^void mergeClusters(std::vector<Cluster> &vCluster, int c1, int c2)$/;"	f
+minDist	VP detection/Jlinkage.h	/^    double minDist;$/;"	m	struct:__anon1
+minDistIdx	VP detection/Jlinkage.h	/^    int minDistIdx;$/;"	m	struct:__anon1
+minLength	VP detection/DType .h	/^# define minLength /;"	d
+minimum_	VP detection/edge_detection .cpp	/^    # define minimum_ /;"	d	file:
+operator ()	VP detection/edge_detection .h	/^    inline T operator()(const int rowIndx, const int columIndx)$/;"	f	class:Image
+operator ()	VP detection/fit.h	/^    inline double operator()(const int location, const int rowIndx) $/;"	f	class:Edge2
+operator =	VP detection/edge_detection .h	/^    void operator=(IplImage* img) {imgp=img;}$/;"	f	class:Image
+operator []	VP detection/edge_detection .h	/^    inline T* operator[](const int rowIndx) $/;"	f	class:Image
+p1	VP detection/DType .h	/^        double p1;$/;"	m	struct:C1Lpt
+p2	VP detection/DType .h	/^        double p2;$/;"	m	struct:C1Lpt
+p3	VP detection/DType .h	/^        double p3;$/;"	m	struct:C1Lpt
+pBin	VP detection/Jlinkage.h	/^    bool*   pBin;$/;"	m	struct:__anon1
+pLength	VP detection/Jlinkage.h	/^    int pLength;$/;"	m	struct:__anon1
+partition	VP detection/qsort.c	/^static int partition(int n, double *arr) {$/;"	f	file:
+permute	VP detection/qsort.c	/^void permute(int n, int size, void *arr, int *perm) {$/;"	f
+permute_dbl	VP detection/qsort.c	/^void permute_dbl(int n, double *arr, int *perm) {$/;"	f
+point	VP detection/DType .h	/^    } point;$/;"	t	typeref:struct:xypoint
+pointUn	VP detection/fit.h	/^inline void Edge2::pointUn(int location)$/;"	f	class:Edge2
+pointUn1_	VP detection/fit.h	/^ point pointUn1_;$/;"	m	class:Edge1
+pointUn2_	VP detection/fit.h	/^ point pointUn2_;$/;"	m	class:Edge1
+pointUn_Rec	VP detection/fit.h	/^inline Edge2& Edge2:: pointUn_Rec(int location, CvPoint2D32f& point1, CvPoint2D32f& point2)$/;"	f	class:Edge2
+point_D	VP detection/DType .h	/^    } point_D;$/;"	t	typeref:struct:Cpoint
+print_matrix	VP detection/matrix_OP.c	/^void print_matrix( char* desc, int m, int n, double* a, int lda ) {$/;"	f
+pt3	VP detection/DType .h	/^    } pt3;$/;"	t	typeref:struct:C1Lpt
+qsort_ascending	VP detection/qsort.c	/^void qsort_ascending() $/;"	f
+qsort_descending	VP detection/qsort.c	/^void qsort_descending() $/;"	f
+qsort_order	VP detection/qsort.c	/^static qsort_order_t qsort_order = QSORT_DESCENDING;$/;"	v	file:
+qsort_order_t	VP detection/qsort.c	/^} qsort_order_t;$/;"	t	typeref:enum:__anon2	file:
+qsort_perm	VP detection/qsort.c	/^void qsort_perm(int n, double *arr, int *perm) {$/;"	f
+qsort_perm_r	VP detection/qsort.c	/^void qsort_perm_r(int n, double *arr, int *perm) {$/;"	f
+segmentation	VP detection/DType .h	/^# define segmentation /;"	d
+show_image	VP detection/edge_detection .h	/^   void show_image()$/;"	f	class:Image
+size	VP detection/fit.h	/^inline  int Edge2::size() const$/;"	f	class:Edge2
+size_	VP detection/fit.h	/^    int size_;$/;"	m	class:Edge2
+skMat	VP detection/fit.h	/^ double skMat[9];$/;"	m	class:Edge1
+skm_Cpoint	VP detection/fit.h	/^inline void  Edge2::skm_Cpoint(int &location, double* skmat)$/;"	f	class:Edge2
+tolerance	VP detection/DType .h	/^# define tolerance /;"	d
+uint	VP detection/edge_detection .h	/^#define  uint /;"	d
+uint8	VP detection/edge_detection .h	/^#define  uint8 /;"	d
+vCluster	VP detection/Jlinkage.cpp	/^std::vector< Cluster > vCluster;$/;"	v
+vData	VP detection/Jlinkage.h	/^    std::vector<int>   vData;$/;"	m	struct:__anon1
+vDist	VP detection/Jlinkage.h	/^    double* vDist;$/;"	m	struct:__anon1
+vL_	VP detection/fit.h	/^ double vL_[3];   $/;"	m	class:Edge1
+width	VP detection/edge_detection .h	/^    inline int width()$/;"	f	class:Image
+x	VP detection/DType .h	/^        double x;$/;"	m	struct:Cpoint
+x	VP detection/DType .h	/^        double x;$/;"	m	struct:xypoint
+xypoint	VP detection/DType .h	/^ typedef struct  xypoint$/;"	s
+y	VP detection/DType .h	/^        double y;$/;"	m	struct:Cpoint
+y	VP detection/DType .h	/^        double y;$/;"	m	struct:xypoint
+~Edge2	VP detection/fit.h	/^    ~Edge2()$/;"	f	class:Edge2
+~Image	VP detection/edge_detection .h	/^    ~Image(){imgp=0;}$/;"	f	class:Image

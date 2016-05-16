@@ -1,0 +1,125 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLACK	DType .h	/^# define BLACK /;"	d
+C1Lpt	DType .h	/^ typedef struct  C1Lpt$/;"	s
+C1Lpt	fit.h	/^ pt3 C1Lpt;   $/;"	m	class:Edge1
+CB	matrix_OP.h	/^#define CB(/;"	d
+Canny_mask	DType .h	/^# define Canny_mask /;"	d
+Canny_thd	DType .h	/^# define Canny_thd /;"	d
+Cluster	Jlinkage.h	/^}  Cluster;$/;"	t	typeref:struct:__anon2
+Cpoint	DType .h	/^ typedef struct  Cpoint$/;"	s
+Cpoint	fit.h	/^ point_D Cpoint;$/;"	m	class:Edge1
+DEG2RAD	matrix_OP.h	/^#define DEG2RAD(/;"	d
+Edge1	fit.h	/^class Edge1$/;"	c
+Edge2	fit.h	/^class Edge2$/;"	c
+Edge_lst	fit.h	/^    Edge1* Edge_lst;$/;"	m	class:Edge2
+Gen_C1Lpoint_Distance	fit.h	/^inline void  Edge2::Gen_C1Lpoint_Distance(int location)$/;"	f	class:Edge2
+Gen_skm	fit.h	/^inline void  Edge2::Gen_skm(double &x, double &y , double* skemat)$/;"	f	class:Edge2
+GetC1Lpt	fit.h	/^inline pt3 Edge2::GetC1Lpt(int location)$/;"	f	class:Edge2
+GetCpoint	fit.h	/^inline point_D Edge2::GetCpoint(int location)$/;"	f	class:Edge2
+GetPoint	fit.h	/^inline void Edge2::GetPoint(int location, double *point)$/;"	f	class:Edge2
+GetskMat	fit.h	/^inline void Edge2::GetskMat(int location, double *skmat)$/;"	f	class:Edge2
+Global_Centerpt	VP_nonlinear.c	/^static point_D* Global_Centerpt;$/;"	v	file:
+Global_Cline	VP_nonlinear.c	/^static pt3 *Global_Cline;$/;"	v	file:
+Global_NumEdge	VP_nonlinear.c	/^static int Global_NumEdge=0;$/;"	v	file:
+Image	edge_detection .h	/^    Image(IplImage* img=0) $/;"	f	class:Image
+Image	edge_detection .h	/^template<class T> class Image $/;"	c
+Initialize	fit.h	/^inline void Edge2::Initialize(int num)$/;"	f	class:Edge2
+LDA	matrix_OP.c	/^#define LDA /;"	d	file:
+LWA	VP_nonlinear.c	/^    #define LWA /;"	d	file:
+MAX	matrix_OP.h	/^#define MAX(/;"	d
+MAX4	matrix_OP.h	/^#define MAX4(/;"	d
+MIN	matrix_OP.h	/^#define MIN(/;"	d
+MIN4	matrix_OP.h	/^#define MIN4(/;"	d
+N	matrix_OP.c	/^#define N /;"	d	file:
+NLVPoptimization	VP_nonlinear.c	/^void NLVPoptimization(int NumEdg,double *Vangle, point_D* Centerpt,pt3  *Cline, pt3 *VP_result)$/;"	f
+Norm_	fit.h	/^inline Edge2& Edge2::Norm_(int location, double*point)$/;"	f	class:Edge2
+Print_VL	fit.h	/^inline void Edge2::Print_VL(int location)$/;"	f	class:Edge2
+Print_VLt	fit.h	/^inline void  Edge2::Print_VLt(int location)$/;"	f	class:Edge2
+QSORT_ASCENDING	qsort.c	/^    QSORT_ASCENDING,$/;"	e	enum:__anon1	file:
+QSORT_DESCENDING	qsort.c	/^    QSORT_DESCENDING$/;"	e	enum:__anon1	file:
+RAD2DEG	matrix_OP.h	/^#define RAD2DEG(/;"	d
+SORT_ASCENDING	qsort.c	/^#define SORT_ASCENDING$/;"	d	file:
+SQ	matrix_OP.h	/^#define SQ(/;"	d
+VLt	fit.h	/^ double VLt[9];$/;"	m	class:Edge1
+VLt_	fit.h	/^inline Edge2& Edge2::VLt_(int location)$/;"	f	class:Edge2
+VLt_read	fit.h	/^inline double  Edge2::VLt_read(int location,int Num)$/;"	f	class:Edge2
+WHITE	DType .h	/^# define WHITE /;"	d
+__DType_h__	DType .h	/^#define __DType_h__$/;"	d
+__VP_nonlinear_h__	VP_nonlinear.h	/^#define __VP_nonlinear_h__$/;"	d
+__edge_detection_h__	edge_detection .h	/^#define __edge_detection_h__$/;"	d
+__fit_h__	fit.h	/^#define __fit_h__$/;"	d
+__matrix_OP_h__	matrix_OP.h	/^#define __matrix_OP_h__$/;"	d
+__qsort_h__	qsort.h	/^#define __qsort_h__$/;"	d
+deviation	DType .h	/^# define deviation /;"	d
+dgesvd_driver	matrix_OP.c	/^int dgesvd_driver(int m, int n, double *A, double *U, double *S, double *VT) {$/;"	f
+disable	Jlinkage.h	/^    bool disable;$/;"	m	struct:__anon2
+dsyev_driver	matrix_OP.c	/^void dsyev_driver(int n1, double*mat, int lda1, double *w1)$/;"	f
+fcn_noW	VP_nonlinear.c	/^void fcn_noW(const int *m, const int *n, const double *x, double *fvec, int *iflag)$/;"	f
+height	edge_detection .h	/^    inline int height()$/;"	f	class:Image
+imgp	edge_detection .h	/^    IplImage* imgp;$/;"	m	class:Image
+is_sorted	qsort.c	/^int is_sorted(int n, double *arr) {$/;"	f
+kth_element	qsort.c	/^double kth_element(int n, int k, double *arr) {$/;"	f
+kth_element_copy	qsort.c	/^double kth_element_copy(int n, int k, double *arr) {$/;"	f
+line_threshold	DType .h	/^# define line_threshold /;"	d
+matrix_print	matrix_OP.c	/^void matrix_print(int m, int n, double *A) {$/;"	f
+matrix_product	matrix_OP.c	/^void matrix_product(int Am, int An, int Bm, int Bn, $/;"	f
+matrix_transpose	matrix_OP.c	/^void matrix_transpose(int m, int n, double *A, double *AT) {$/;"	f
+matrix_transpose_product	matrix_OP.c	/^void matrix_transpose_product(int Am, int An, int Bm, int Bn, double *A, double *B, double *R) {$/;"	f
+matrix_transpose_product2_old	matrix_OP.c	/^void matrix_transpose_product2_old(int Am, int An, int Bm, int Bn, $/;"	f
+maxima_trial	DType .h	/^# define maxima_trial /;"	d
+median	qsort.c	/^double median(int n, double *arr) {$/;"	f
+median_copy	qsort.c	/^double median_copy(int n, double *arr) {$/;"	f
+minDist	Jlinkage.h	/^    double minDist;$/;"	m	struct:__anon2
+minDistIdx	Jlinkage.h	/^    int minDistIdx;$/;"	m	struct:__anon2
+minLength	DType .h	/^# define minLength /;"	d
+operator ()	edge_detection .h	/^    inline T operator()(const int rowIndx, const int columIndx)$/;"	f	class:Image
+operator ()	fit.h	/^    inline double operator()(const int location, const int rowIndx) $/;"	f	class:Edge2
+operator =	edge_detection .h	/^    void operator=(IplImage* img) {imgp=img;}$/;"	f	class:Image
+operator []	edge_detection .h	/^    inline T* operator[](const int rowIndx) $/;"	f	class:Image
+p1	DType .h	/^        double p1;$/;"	m	struct:C1Lpt
+p2	DType .h	/^        double p2;$/;"	m	struct:C1Lpt
+p3	DType .h	/^        double p3;$/;"	m	struct:C1Lpt
+pBin	Jlinkage.h	/^    bool*   pBin;$/;"	m	struct:__anon2
+pLength	Jlinkage.h	/^    int pLength;$/;"	m	struct:__anon2
+partition	qsort.c	/^static int partition(int n, double *arr) {$/;"	f	file:
+permute	qsort.c	/^void permute(int n, int size, void *arr, int *perm) {$/;"	f
+permute_dbl	qsort.c	/^void permute_dbl(int n, double *arr, int *perm) {$/;"	f
+point	DType .h	/^    } point;$/;"	t	typeref:struct:xypoint
+pointUn	fit.h	/^inline void Edge2::pointUn(int location)$/;"	f	class:Edge2
+pointUn1_	fit.h	/^ point pointUn1_;$/;"	m	class:Edge1
+pointUn2_	fit.h	/^ point pointUn2_;$/;"	m	class:Edge1
+pointUn_Rec	fit.h	/^inline Edge2& Edge2:: pointUn_Rec(int location, CvPoint2D32f& point1, CvPoint2D32f& point2)$/;"	f	class:Edge2
+point_D	DType .h	/^    } point_D;$/;"	t	typeref:struct:Cpoint
+print_matrix	matrix_OP.c	/^void print_matrix( char* desc, int m, int n, double* a, int lda ) {$/;"	f
+pt3	DType .h	/^    } pt3;$/;"	t	typeref:struct:C1Lpt
+qsort_ascending	qsort.c	/^void qsort_ascending() $/;"	f
+qsort_descending	qsort.c	/^void qsort_descending() $/;"	f
+qsort_order	qsort.c	/^static qsort_order_t qsort_order = QSORT_DESCENDING;$/;"	v	file:
+qsort_order_t	qsort.c	/^} qsort_order_t;$/;"	t	typeref:enum:__anon1	file:
+qsort_perm	qsort.c	/^void qsort_perm(int n, double *arr, int *perm) {$/;"	f
+qsort_perm_r	qsort.c	/^void qsort_perm_r(int n, double *arr, int *perm) {$/;"	f
+segmentation	DType .h	/^# define segmentation /;"	d
+show_image	edge_detection .h	/^   void show_image()$/;"	f	class:Image
+size	fit.h	/^inline  int Edge2::size() const$/;"	f	class:Edge2
+size_	fit.h	/^    int size_;$/;"	m	class:Edge2
+skMat	fit.h	/^ double skMat[9];$/;"	m	class:Edge1
+skm_Cpoint	fit.h	/^inline void  Edge2::skm_Cpoint(int &location, double* skmat)$/;"	f	class:Edge2
+tolerance	DType .h	/^# define tolerance /;"	d
+uint	edge_detection .h	/^#define  uint /;"	d
+uint8	edge_detection .h	/^#define  uint8 /;"	d
+vData	Jlinkage.h	/^    std::vector<int>   vData;$/;"	m	struct:__anon2
+vDist	Jlinkage.h	/^    double* vDist;$/;"	m	struct:__anon2
+vL_	fit.h	/^ double vL_[3];   $/;"	m	class:Edge1
+width	edge_detection .h	/^    inline int width()$/;"	f	class:Image
+x	DType .h	/^        double x;$/;"	m	struct:Cpoint
+x	DType .h	/^        double x;$/;"	m	struct:xypoint
+xypoint	DType .h	/^ typedef struct  xypoint$/;"	s
+y	DType .h	/^        double y;$/;"	m	struct:Cpoint
+y	DType .h	/^        double y;$/;"	m	struct:xypoint
+~Edge2	fit.h	/^    ~Edge2()$/;"	f	class:Edge2
+~Image	edge_detection .h	/^    ~Image(){imgp=0;}$/;"	f	class:Image
